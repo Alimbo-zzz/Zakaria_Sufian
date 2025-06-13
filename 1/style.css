@@ -1,0 +1,54 @@
+body {
+	background: #222;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+	color: red;
+	background: rgb(2, 98, 56);
+	margin: 30px;
+}
+
+
+h1 {
+	color: red;
+	background: #111;
+	padding: 10px 30px;
+	width: fit-content;
+	margin: 50px auto;
+	border-radius: 30px;
+	font-size: 25px;
+}
+
+
+button {
+	display: block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin: 50px auto;
+}
+
+
+div {
+	width: 100px;
+	aspect-ratio: 1/1;
+	background-color: orange;
+	border-radius: 100%;
+	color: #222;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: 1s;
+}
+
+div.active {
+	border-radius: 0;
+}
